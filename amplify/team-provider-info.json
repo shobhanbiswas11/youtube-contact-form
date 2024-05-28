@@ -1,0 +1,32 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-serverlesscontactfor-prod-fa60c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418265580:role/amplify-serverlesscontactfor-prod-fa60c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418265580:role/amplify-serverlesscontactfor-prod-fa60c-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-serverlesscontactfor-prod-fa60c-deployment",
+      "UnauthRoleName": "amplify-serverlesscontactfor-prod-fa60c-unauthRole",
+      "StackName": "amplify-serverlesscontactfor-prod-fa60c",
+      "StackId": "arn:aws:cloudformation:ap-south-1:905418265580:stack/amplify-serverlesscontactfor-prod-fa60c/b567f8f0-15a2-11ef-89d8-02074a07a825",
+      "AmplifyAppId": "d1dyxsfwfz69l3"
+    },
+    "categories": {
+      "function": {
+        "conatactHandler": {
+          "deploymentBucketName": "amplify-serverlesscontactfor-prod-fa60c-deployment",
+          "s3Key": "amplify-builds/conatactHandler-763869456a3930773758-build.zip"
+        }
+      },
+      "api": {
+        "contactFormApi": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1dyxsfwfz69l3",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
